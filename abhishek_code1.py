@@ -35,7 +35,7 @@ def isPrime(n):
         if n % i == 0:
             return False
     return True
-s = isPrime()
+s = isPrime(7)
 print (s)
 if s == True :
     print("the number is prime")
@@ -55,7 +55,17 @@ def convert(n):
 r = convert(2)
 print (r)
 
+parrot = "Norwegian Blue"
 
+print (parrot.lower())
+print (parrot.upper())
+
+
+day = 6
+print ("03 - %day - 2019") % (day)
+# 03 - 6 - 2019
+print( "03 - %02d - 2019") % (day)
+# 03 - 06 - 2019
 
    
             
